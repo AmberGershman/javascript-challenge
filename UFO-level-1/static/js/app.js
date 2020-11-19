@@ -26,17 +26,19 @@ function filterDate() {
 
     console.log(filterDate);
 
-    for (var i; i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[0];
-        if (td) {
-            txtValue = td.textContent || td.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            } else {
-                tr[i].style.display = "none";
-            }
-        }
-    }
+    var emptyUFO = d3.select("tbody");
+    emptyUFO.html("")
+
+    filterDate.forEach(function (instance) {
+        var row = tbody.append("tr")
+        //unpack the contents
+        Object.entries(instance).forEach(([key, value]) => {
+            // console.log(value)
+            var cell = row.append("td")
+            cell.text(value)
+        })
+    });
+
 };
 
-search.on("click");
+search.on("click", filterDate);
