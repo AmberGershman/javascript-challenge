@@ -3,12 +3,12 @@
 
 Hi again, friends! 
 
-Join us today, on the GW Data Analytics Bootcamp Channel, for a brief foray into <strong>JavaScript</strong>! 
-(previously recorded due to COVID restrictions).
+Join us today, on the <i>GW Data Analytics Bootcamp</i> Channel, for a brief foray into <strong>JavaScript</strong>! 
+<h6>(previously recorded due to COVID restrictions)</h6>
 
 Our host, Amber, will be taking us through forEach loops, the fattiest of fat arrow notation, and the extraterrestrial world of d3.select. 
 
-<strong>Amber</strong>: Welcome back to my repo, Amber's Data Domain! I won't lie - I've been writing a lot of ReadMe's lately and I'm going a bit crazy, so I thought I would try a host-local TV format. It's good to see you all again, friends. 
+<strong>Amber</strong>: Welcome back to my repo, Amber's Data Domain! I won't lie - I've been writing a lot of ReadMe's lately and I'm going a bit crazy, so I thought I would try a local TV, morning news format. It's good to see you all again, friends. 
 
 In this episode, we will talk about basic JavaScripting, including reading in JS files in as HTML tables with forEach loops and adding filters to rerender your data. Luckily, we are starting with pre-packaged styling so we won't have to worry about the CSS elements. 
 
@@ -24,7 +24,7 @@ Beautiful! You have succesfully read your JavaScript file into HTML as a table. 
 
 We have our lovely data table already set up - but now we want to rerender the table to only display our filtered data. So let's delete the table by telling the HTML to replace what's there with nothing. Just delete it - gone, done. From there, we can use the original forEach logic on our new dataset to create a new, slimmer table.
 
-Did you say Bonus? Because I did! 
+<h5>Did you say Bonus? Because I did! </h5>
 
 The bonus asked to add additional filters, which - now that we know the structure of filter thriller - will be simplicity in itself to replicate. 
 
