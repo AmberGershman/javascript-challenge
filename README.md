@@ -24,7 +24,7 @@ Beautiful! You have succesfully read your JavaScript file into HTML as a table. 
 
 We have our lovely data table already set up - but now we want to rerender the table to only display our filtered data. So let's delete the table by telling the HTML to replace what's there with nothing. Just delete it - gone, done. From there, we can use the original forEach logic on our new dataset to create a new, slimmer table.
 
-<h5>Did you say Bonus? Because I did! </h5>
+<h6>Did you say Bonus? Because I did! </h6>
 
 The bonus asked to add additional filters, which - now that we know the structure of filter thriller - will be simplicity in itself to replicate. 
 
