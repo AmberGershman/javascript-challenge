@@ -36,3 +36,4 @@ I hope you'll be able to join us next week when we discuss how a local farmer wa
 
 See you next time - bye! 
 
+<h6>Note:</h6> I know this repo is dreadfully under committed - but I finished it in under three hours and in one sitting, so while I did commit - it wasn't as much I normally do. I hope this doesn't count against me! 
